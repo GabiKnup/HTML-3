@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">		
+		<title>Feedbak</title>
+		<link rel="stylesheet" type="text/css" href="style.css">
+
+		<style type="text/css">
+			body {
+				padding: 15px;
+			}
+
+			legend {
+				font-weight: bold;
+				font-size: 20px;
+			}
+
+			p {
+				line-height: 1px;
+				display: inline-block;
+				padding-right: 5px;
+
+			}
+
+		</style>
+	</head>
+
+	<body>
+		<h2>Lista de recomendações de restaurantes</h2>
+		<form>
+			<fieldset><legend>Sobre o restaurante</legend>
+				<p>Nome do estabelecimento:</p><input type='text'><br/>
+				<p>Endereço: </p><input type='text'><br/>
+				<p>Telefone: </p><input type='text'><br/>
+				<p>Categoria: </p><input type='checkbox'>Lanches
+				<input type='checkbox'>Pizzas
+				<input type='checkbox'>Hambúrgueres
+				<input type='checkbox'>Japonesa
+				<input type='checkbox'>Chinesa<br/>
+				<p>Faixa de preço:</p><select><option>$</option><option>$$</option><option>$$$</option></select>
+			</fieldset>
+
+			<br>
+
+			<fieldset><legend>Conte sua experiência</legend>
+				<p>O que pediu? </p><input type='text'><br/>
+				<p>Quanto foi? </p><input type='number' placeholder="R$"><br/>
+				<p>Entregou rápido? </p><input type='radio' name="entrega">Sim<input type='radio' name="entrega">Não<br/>
+				<p>Observações:</p><br/>
+				<textarea rows="5" cols="40"></textarea>
+			</fieldset><br/>
+			<button type="reset">Cancelar</button>
+			<button type="button" onclick="alert('Salvo com sucesso!')">Salvar</button>
+
+		</form>
+		
+	</body>
+</html>
