@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">		
+		<title>Feedbak</title>
+		<link rel="stylesheet" type="text/css" href="style.css">
+	</head>
+
+	<body>
+		<h2>Lista de recomendações de restaurantes</h2>
+		<form>
+			<fieldset><legend>Sobre o restaurante</legend>
+				<p>Nome do estabelecimento:</p><input type='text'><br/>
+				<p>Endereço: </p><input type='text' size="36"><br/>
+				<p>Telefone: </p><input type='text'><br/>
+				<p>Categoria: </p><input type='checkbox'><p>Lanches</p>
+				<input type='checkbox'><p>Pizzas</p>
+				<input type='checkbox'><p>Hambúrgueres</p>
+				<input type='checkbox'><p>Japonesa</p>
+				<input type='checkbox'><p>Chinesa</p><br/>
+				<p>Faixa de preço:</p><select><option>$</option><option>$$</option><option>$$$</option></select>
+			</fieldset>
+
+			<br>
+
+			<fieldset><legend>Conte sua experiência</legend>
+				<p>O que pediu? </p><input type='text'><br/>
+				<p>Quanto foi? </p><input type='number' placeholder="R$"><br/>
+				<p>Entregou rápido? </p><input type='radio' name="entrega"><p>Sim</p><input type='radio' name="entrega"><p>Não</p><br/>
+				<p>Observações:</p><br/>
+				<textarea rows="5" cols="40"></textarea>
+			</fieldset><br/>
+			<button id="cancel" type="reset">Cancelar</button>
+			<button id="save" type="button" onclick="alert('Salvo com sucesso!')">Salvar</button>
+
+		</form>
+		
+	</body>
+</html>

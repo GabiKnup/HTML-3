@@ -1,0 +1,52 @@
+body {
+	padding: 15px;
+	color: #CC0003;
+	}
+fieldset {
+	border-radius: 30px;
+	border-color: #CC0003;
+	padding: 15px;
+}
+
+legend {
+	font-weight: bold;
+	font-size: 20px;
+}
+
+p {
+	line-height: 1px;
+	display: inline-block;
+	padding-right: 5px;
+	font-weight: bold;
+}
+
+input, textarea {
+	background-color: lightgrey;
+	border-style: inset;
+	border-color: lightgrey;
+}
+
+select {
+	background-color: lightgrey;
+	border-style: inset;
+	border-color: lightgrey;
+	border-radius: 4px;
+}
+
+#cancel {
+	background-color: #999999;
+	color: white;
+	border-radius: 5px;
+	padding: 5px 8px 5px 8px;
+	border: 2px grey;
+	float: left;
+}
+
+button {
+	background-color: #CD0000;
+	color: white;
+	border-radius: 5px;
+	padding: 5px 8px 5px 8px;
+	border: 2px grey;
+	float: right;
+}
